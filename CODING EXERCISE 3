@@ -1,0 +1,51 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class Exercise3 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		String a,b;
+		int a1,b1;
+		double avg;
+		
+		 System.out.print("Enter your first subject : ");
+		 a=in.next();
+		 
+		 System.out.print("Enter your second subject : ");
+		 b=in.next();
+		
+		 System.out.print("Enter your first  subject's mark : ");
+		 a1=in.nextInt();
+		 
+		 System.out.print("Enter your second subject's mark : ");
+		 b1=in.nextInt();
+		 
+		 if(a1>b1)
+			 System.out.println(a +"'s mark is higher than " +b +"'s mark");
+		 else
+			 System.out.println(b +"'s mark is higher than " +a +"'s mark");
+		 if(a1>=50)
+			 System.out.println("Your " +a +" subject is passed!");
+		 else
+		     System.out.println("Your " +b +" subject is passed!");
+		 
+		 avg=(a1+b1)/2.0;
+		 System.out.println("Your average marks for two subjects is " +avg); 
+		 
+		 if((avg>=80)&&(avg<=100))
+			 System.out.println("Congrats! You got Gred A");
+		 else if((avg>=60)&&(avg<=79))
+			 System.out.println("You got Gred B");
+		 else if((avg>=50)&&(avg<=59))
+			 System.out.println("You got Gred C");
+		 else
+			 System.out.println("Unfortunately, you just FAILED"); 
+				 
+		 
+				
+	}
+
+}
