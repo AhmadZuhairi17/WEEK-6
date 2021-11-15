@@ -1,0 +1,30 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class Exercise1 {
+
+	public static void main(String[] args) {
+		 Scanner in = new Scanner(System.in);
+		 /*Guna scanner input, masukkan satu nombor integer. Bahagikan nomber tersebut dengan 5, jika ia berbaki dengan 0, maka print nomber tersebut adalah odd. 
+		 Bahagikan nombor tersebut dengan 2, jika bakinya adalah kosong, maka print nomber tersebut ialah even.*/
+		 int a;
+			 
+		 System.out.print("Enter an integer : ");
+		 a=in.nextInt();
+		 
+		 if(a%5 != 0)
+			 System.out.print("Odd Number");
+		 
+		 else if(a%2 == 0)
+			 System.out.println("Even number");
+		 
+		 
+		 
+		 
+		 
+		
+
+	}
+
+}
