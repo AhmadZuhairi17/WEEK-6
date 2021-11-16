@@ -1,8 +1,8 @@
 Enter your first subject : Math
-Enter your second subject : English
-Enter your first  subject's mark : 85
-Enter your second subject's mark : 70
-Math's mark is higher than English's mark
-Your Math subject is passed!
-Your average marks for two subjects is 77.5
-You got Gred B
+Enter your second subject : Kimia
+Enter your first  subject's mark : 49
+Enter your second subject's mark : 48
+Math's mark is higher than Kimia's mark
+Both of the subject are failed!
+Your average marks for two subjects is 48.5
+Unfortunately, you are FAILED
