@@ -27,11 +27,17 @@ class Exercise3 {
 			 System.out.println(a +"'s mark is higher than " +b +"'s mark");
 		 else
 			 System.out.println(b +"'s mark is higher than " +a +"'s mark");
+		 if((a1<50) && (b1<50))
+			 	 System.out.println("Both of the subject are failed!");
+		 else if(a1<50)
+			     System.out.println("Your " +a +" subject is failed!");
+		 else if(b1<50)
+			     System.out.println("Your " +b +" subject is failed!");
 		 if(a1>=50)
 			 System.out.println("Your " +a +" subject is passed!");
-		 else
+		 if(b1>=50) 
 		     System.out.println("Your " +b +" subject is passed!");
-		 
+		
 		 avg=(a1+b1)/2.0;
 		 System.out.println("Your average marks for two subjects is " +avg); 
 		 
@@ -42,10 +48,11 @@ class Exercise3 {
 		 else if((avg>=50)&&(avg<=59))
 			 System.out.println("You got Gred C");
 		 else
-			 System.out.println("Unfortunately, you just FAILED"); 
+			 System.out.println("Unfortunately, you are FAILED"); 
 				 
 		 
 				
 	}
 
 }
+
