@@ -1,0 +1,33 @@
+package myPractice;
+
+import java.util.Scanner;
+
+class Exercise5 {
+
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		
+		int num;
+		
+		System.out.print("Enter your number (10/20/30) : ");
+		num=in.nextInt();
+
+		switch(num) {
+		case(10) : System.out.print("You choose number " +num);
+		break;
+		
+		case(20) : System.out.print("You choose number " +num);
+		break;
+		
+		case(30) : System.out.print("You choose number " +num);
+		break;
+		
+		default : System.out.print("You choose invalid number!");
+		}
+		
+		
+		
+
+	}
+
+}
